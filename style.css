@@ -1,0 +1,116 @@
+html,body{
+    height: 100%;
+    width:100%;
+    margin-top:1%;
+}
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: catamaran;
+    src: url("fonts/Catamaran.woff");
+}
+.row{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    grid-gap:40px;
+    font-family: catamaran;
+}
+.row p{
+    color:black;
+    font-size:22px;
+}
+.inline{
+    display: inline-flex;
+    grid-gap:10px;
+}
+.inline img{
+    height:30px;
+}
+.inline p{
+    font-size:22px;
+    color:blue;
+}
+.container{
+    width:80%;
+    display:block;
+    margin:0 auto;
+    margin-top: 60px;
+}
+#logo{
+   height:70px;
+}
+
+.heading{
+    width:100%;
+    border-radius:15px;
+    height:40px;
+    background-color:royalblue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    grid-gap:80px;
+    justify-content: center;
+}
+
+.heading h2{
+    font-family: catamaran;
+    font-size: 23px;
+    text-align: center;
+    width:150px;
+}
+.heading h2:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    grid-gap:50px;
+    width:100%;
+    margin-top: 40px;
+
+}
+#one{
+    height:370px;
+    width:25%;
+}
+#two{
+    height:370px;
+    width:75%;
+}
+#three{
+    width:90%;
+    display: block;
+    margin:0 auto;
+    height:70px;
+    margin-top: 50px;
+}
+#first{
+    text-align: center;
+    font-family:catamaran;
+    color:mediumblue;
+    margin-top:40px;
+}
+.cards{
+    width:100%;
+    justify-content: center;
+    align-content: center;
+    display:flex;
+    grid-gap:100px;
+    margin-top: 30px;
+}
+.card{
+    height:280px;
+    width:330px;
+}
+.card img{
+    width:330px;
+    height:160px;
+}
+.card p{
+    font-family: catamaran;
+    margin-top:30px;
+}
